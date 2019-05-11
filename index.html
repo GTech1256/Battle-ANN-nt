@@ -4,11 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="js/artyom.window.min.js"></script>
     <title>Battle ANN'nt </title>
 </head>
 <body>
+    <section class="start-menu">
+        <div class="start-menu__content">
+            <h1>Посторонний в доме</h1>
+            <img src="/assets/meme.jpeg" alt="meme" width="300" height="300">
+            <h2>Для запуска нужно сказать одну из комманд:</h2>
+            <ul>
+                <li class="waves">посторонний</li>
+                <li class="waves">посторонние</li>
+                <li class="waves">посторонний в доме</li>
+                <li class="waves">посторонние в доме</li>
+                <li class="waves">доме</li>
+                <li class="waves">дома</li>
+                <li class="waves">в доме</li>
+            </ul>
+            <h2>Для остановки нужно сказать одну из комманд:</h2>
+            <ul>
+                <li class="waves">Стоп</li>
+                <li class="waves">Stop</li>
+            </ul>
+
+            <h2 class="uppercase">Но сначала нужно нажать на <span class="waves">экран.</span></h2>
+        </div>
+    </section>
     <main class="view">
         <div class="plane main">
             <div class="circle"></div>
@@ -23,6 +46,6 @@
         <button id="debug-start">Start</button>
         <button id="debug-stop">Stop</button>
     </aside>
-    <script src="js/script.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

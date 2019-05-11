@@ -23,6 +23,7 @@ aside {
     border: none;
 }
 
+.uppercase { text-transform: uppercase}
 
 main {
    height: 100vh; 
@@ -43,6 +44,40 @@ body {
     animation: colorChange 10s infinite linear;
 }
 
+.start-menu {
+    position: relative;
+    z-index: 5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .6);
+
+    display: flex;
+    cursor: pointer;
+}
+
+.start-menu__content {
+    text-align: center;
+    pointer-events: none;
+    margin: auto;
+}
+
+.start-menu__content img {
+    margin: 40px;
+}
+
+.start-menu__content ul {
+    list-style: none;
+}
+
+.waves {
+    text-decoration: wavy underline;
+    line-height: 2em;
+    text-transform: uppercase;
+    color: white;
+}
 
 /* .view and .plane for red ball*/
 .view {
