@@ -9,6 +9,24 @@ aside {
     padding: 50px;
 }
 
+h1 {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1rem;
+}
+h3 {
+    font-size: .5rem;
+}
+
+.on-all-screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
 /* all debug hidden */
 [id^="debug"] {
     visibility: hidden;
@@ -46,7 +64,6 @@ body {
 }
 
 .start-menu {
-    position: relative;
     z-index: 5;
     background: rgba(0, 0, 0, .6);
 
@@ -76,11 +93,6 @@ body {
 
 /* .view and .plane for red ball*/
 .view {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
     -webkit-perspective: 400;
     perspective: 400;
 
@@ -231,3 +243,23 @@ body {
     -webkit-animation: rotate 2s infinite linear;
     animation: rotate 2s infinite linear;
 }
+
+@media screen and (max-width: 780px) {
+    html,
+    body {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    html,
+    body {
+        font-size: 12px;
+    }
+
+    .start-menu__content img { 
+        width: 200px;
+        height: 200px;
+    }
+}
+
