@@ -36,6 +36,7 @@ h1 {
 }
 
 body {
+    color: white;
     margin: 0;
     overflow: hidden;
     width: 100vw;
@@ -76,7 +77,6 @@ body {
     text-decoration: wavy underline;
     line-height: 2em;
     text-transform: uppercase;
-    color: white;
 }
 
 /* .view and .plane for red ball*/
