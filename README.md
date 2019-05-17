@@ -2,6 +2,8 @@
 
 ## RU
 
+> [DEMO](https://gtech1256.github.io/Battle-ANN-nt)
+
 > Описание | Во время посиделки с друзьями этот сайт был написан.
 
 ### Техническая часть
@@ -25,6 +27,8 @@
 Для этого сделана инструкция при открытии сайта, на которую должен нажать пользователь и только после этого основной функционал будет запущен.
 
 ## ENG
+
+> [DEMO](https://gtech1256.github.io/Battle-ANN-nt)
 
 > Description | During the gatherings with friends, this site was written
 
